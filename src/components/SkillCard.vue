@@ -3,12 +3,12 @@
     <div class="card-content">
       <div class="card-front">
         <div class="card-title">
-          Estágio em Web Ops <span class="workplace">Quero Educação</span>
+          {{ title }}<span class="workplace"> {{ workplace }}</span>
           <img
-            src="https://gestao.quero.com/wp-content/uploads/2020/01/Logo-Quero-Institucional-Colorido-Tela-RGB-2.png"
+            :src="picture_src"
             class="card-img"
           />
-          <span class="card-date">Emprego atual</span>
+          <span class="card-date"> {{ worktime }}</span>
         </div>
       </div>
       <div class="card-back">
@@ -16,18 +16,15 @@
           <div>
             <span class="card-back-highlight">Tecnologias usadas</span>
             <ul class="tech-list">
-              <li>Ruby e Ruby on Rails</li>
-              <li>Fundamentos de VueJS</li>
-              <li>Fundamentos de HTML/CSS</li>
-              <li>Git e Github</li>
+              <li v-for="tech in techs">
+                {{ tech }}
+              </li>
             </ul>
           </div>
           <div>
             <span class="card-back-highlight">Descrição</span>
             <div class="job-description">
-              Aprendi a trabalhar em equipe, a me comunicar. Aprendi a resolver
-              problemas, ler scripts diversos. Foco em Rails e no produto Quero
-              Pago.
+              {{ description }}
             </div>
           </div>
         </div>
@@ -35,6 +32,20 @@
     </div>
   </div>
 </template>
+
+<script>
+  export default {
+    name: 'SkillCard',
+    props: {
+      title: String,
+      workplace: String,
+      worktime: String,
+      picture_src: String,
+      techs: Array,
+      description: String,
+    },
+  };
+</script>
 
 
 <style lang="scss">
@@ -110,12 +121,12 @@
 
   .tech-list,
   .job-description {
+    font-size: 14px;
     color: #999;
   }
 
   .job-description {
     text-align: justify;
-    font-size: 14px;
   }
 }
 </style>
