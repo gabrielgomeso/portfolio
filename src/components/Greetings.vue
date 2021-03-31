@@ -1,9 +1,9 @@
 <template>
-  <h1 class="greetings">
-    Meu nome é Gabriel Gomes e eu sou um
+    <h1 class="greetings">
+    Gabriel Gomes de Oliveira <br>
     <span class="typed-text"> {{ typeValue }} </span>
     <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
-  </h1>
+    </h1>
 </template>
 
 <script>
@@ -62,17 +62,17 @@ export default {
 </script>
 <style lang="scss">
 .greetings{
-  
-  text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
+
     .typed-text{
       color: red;
+      font-size: 1rem;
     }
     .cursor{
       display: inline-block;
       
-      margin-left: 3px;
-      width: 4px;
+      margin-left: 1px;
+      width: 3px;
       background-color: #fff;
       animation: cursorBlink 1s infinite;
     }

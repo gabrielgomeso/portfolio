@@ -54,10 +54,6 @@
   width: 250px;
   height: 320px;
   margin: 15px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .card-content {

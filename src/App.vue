@@ -1,16 +1,11 @@
 <template>
-  <section class="container-flex">
+  <section class="section greetings-block">
     <Greetings></Greetings>
     <button>Saiba mais sobre mim</button>
   </section>
-  <section class="container">
+  <section class="section skills-block">
     <Skills></Skills>
   </section>
-  <section class="container-flex">hello</section>
-  <section class="container-flex">world</section>
-
-  <section class="container-flex">test</section>
-
 </template>
 
 <script>
@@ -40,24 +35,28 @@ export default {
     @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
     color: #eee;
     background: #222;
-
     font-family: 'Roboto Mono';
   }
 
-  .container-flex{
-    width: 100%;
+  .section{
+    width: 100vw;
+    max-width: 100%;
     height: 100vh;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
   }
 
-  .container{
-    width: 100%;
-    height: 100vh;
-    padding: 20px;
+  .greetings-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .skills-block{
+    width: 100vw;
+    max-width: 80%;
+    height: auto;
+
+    margin: auto;
   }
 </style>
