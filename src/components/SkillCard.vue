@@ -53,7 +53,11 @@
   position: relative;
   width: 250px;
   height: 320px;
-  margin-right: 15px;
+  margin: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-content {
@@ -112,11 +116,15 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    grid-gap: 20px;
+    grid-gap: 10px;
   }
 
   .card-back-highlight {
     font-weight: 800;
+  }
+  
+  .tech-list{
+    list-style-type: none;
   }
 
   .tech-list,

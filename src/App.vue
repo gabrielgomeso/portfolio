@@ -1,17 +1,28 @@
 <template>
-  <Section></Section>
-  <Skills></Skills>
+  <section class="container-flex">
+    <Greetings></Greetings>
+    <button>Saiba mais sobre mim</button>
+  </section>
+  <section class="container">
+    <Skills></Skills>
+  </section>
+  <section class="container-flex">hello</section>
+  <section class="container-flex">world</section>
+
+  <section class="container-flex">test</section>
+
 </template>
 
 <script>
-import Section from './components/Section.vue';
+
 import Skills from './components/Skills.vue';
+import Greetings from './components/Greetings.vue';
 
 export default {
   name: 'App',
   components: {
-    Section,
-    Skills
+    Skills,
+    Greetings
   },
 };
 </script>
@@ -31,5 +42,22 @@ export default {
     background: #222;
 
     font-family: 'Roboto Mono';
+  }
+
+  .container-flex{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .container{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
   }
 </style>

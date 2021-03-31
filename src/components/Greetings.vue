@@ -1,15 +1,13 @@
 <template>
-  <section class="container">
-    <h1 class="greetings">Meu nome é Gabriel Gomes e eu sou um
-      <span class="typed-text"> {{ typeValue }} </span>
-      <span class="cursor" :class="{'typing': typeStatus}">&nbsp;</span>
-    </h1>
-    <a href="#skills">Saiba mais sobre mim</a>
-  </section>
+  <h1 class="greetings">
+    Meu nome é Gabriel Gomes e eu sou um
+    <span class="typed-text"> {{ typeValue }} </span>
+    <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
+  </h1>
 </template>
 
 <script>
-  export default {
+export default {
     data: () => {
       return {
         typeValue: '',
@@ -62,35 +60,17 @@
     }
   }
 </script>
-
-
 <style lang="scss">
-  @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
-
-  .container{
-    width: 100vw;
-    height: 100vh;
-    color: #eee;
-    background: #222;
-
-    font-family: 'Roboto Mono';
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .greetings{
+.greetings{
+  
+  text-align: center;
     font-size: 2rem;
-    
-
     .typed-text{
       color: red;
     }
-
     .cursor{
       display: inline-block;
+      
       margin-left: 3px;
       width: 4px;
       background-color: #fff;
@@ -107,5 +87,4 @@
     50% {  background-color: transparent; }
     99% { background-color: transparent; }
   }
-
 </style>
