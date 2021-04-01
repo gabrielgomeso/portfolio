@@ -4,17 +4,18 @@
       <div class="card-front">
         <div class="card-title">
           {{ title }}<span class="workplace"> {{ workplace }}</span>
-          <img
-            :src="picture_src"
-            class="card-img"
-          />
+          <div class="img-block">
+            <img :src="picture_src" class="card-img" />
+          </div>
           <span class="card-date"> {{ worktime }}</span>
         </div>
       </div>
       <div class="card-back">
         <div class="card-info">
           <div>
-            <span class="card-back-highlight">Tecnologias usadas</span>
+            <span v-if="techs != null" class="card-back-highlight"
+              >Tecnologias usadas</span
+            >
             <ul class="tech-list">
               <li v-for="tech in techs">
                 {{ tech }}
@@ -34,17 +35,17 @@
 </template>
 
 <script>
-  export default {
-    name: 'SkillCard',
-    props: {
-      title: String,
-      workplace: String,
-      worktime: String,
-      picture_src: String,
-      techs: Array,
-      description: String,
-    },
-  };
+export default {
+  name: "SkillCard",
+  props: {
+    title: String,
+    workplace: String,
+    worktime: String,
+    picture_src: String,
+    techs: Array,
+    description: String,
+  },
+};
 </script>
 
 
@@ -97,11 +98,15 @@
       display: block;
     }
   }
+  .img-block {
+    height: 200px;
 
-  .card-img {
-    width: 100%;
-    -webkit-filter: drop-shadow(5px 5px 5px black);
-    filter: drop-shadow(5px 5px 2px black);
+    .card-img {
+      width: 100%;
+      -webkit-filter: drop-shadow(5px 5px 5px black);
+      filter: drop-shadow(5px 5px 2px black);
+      padding: 20px;
+    }
   }
 }
 
@@ -118,8 +123,8 @@
   .card-back-highlight {
     font-weight: 800;
   }
-  
-  .tech-list{
+
+  .tech-list {
     list-style-type: none;
   }
 
@@ -127,10 +132,6 @@
   .job-description {
     font-size: 14px;
     color: #999;
-  }
-
-  .job-description {
-    text-align: justify;
   }
 }
 </style>

@@ -12,7 +12,7 @@ export default {
       return {
         typeValue: '',
         typeStatus: false,
-        typeArray: ['desenvolvedor Frontend', 'viajante no tempo e espaço', 'mestre de RPG', 'main Syndra no LoL', 'leitor de bons livros (e ruins, às vezes)'],
+        typeArray: ['desenvolvedor Frontend', 'viajante no tempo e espaço', 'mestre de RPG', 'main Syndra no LoL'],
         typingSpeed: 50,
         erasingSpeed: 50,
         newTextDelay: 2000,
@@ -65,8 +65,8 @@ export default {
     font-size: 1.5rem;
 
     .typed-text{
-      color: red;
-      font-size: 1rem;
+      color: #F7DF38;
+      font-size: 1.4rem;
     }
     .cursor{
       display: inline-block;

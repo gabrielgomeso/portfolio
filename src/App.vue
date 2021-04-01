@@ -1,23 +1,33 @@
 <template>
+  <Navigation></Navigation>
   <section class="section greetings-block">
     <Greetings></Greetings>
-    <button>Saiba mais sobre mim</button>
+    <Button></Button>
   </section>
   <section class="section skills-block">
     <Skills></Skills>
   </section>
+  <section class="section contact-block"></section>
+  <Footer></Footer>
 </template>
 
 <script>
 
-import Skills from './components/Skills.vue';
+import Navigation from './components/Navigation.vue';
 import Greetings from './components/Greetings.vue';
+import Button from './components/Button.vue';
+import Skills from './components/Skills.vue';
+import Footer from './components/Footer.vue';
+
 
 export default {
   name: 'App',
   components: {
     Skills,
-    Greetings
+    Greetings,
+    Footer,
+    Navigation,
+    Button
   },
 };
 </script>
@@ -42,21 +52,24 @@ export default {
     width: 100vw;
     max-width: 100%;
     height: 100vh;
+
+    box-shadow: inset 0 0px 1px rgb(0, 0, 0);
   }
 
   .greetings-block{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+
   }
 
   .skills-block{
     width: 100vw;
-    max-width: 80%;
+    background-color: #202426;
     height: auto;
-
     margin: auto;
   }
 </style>
