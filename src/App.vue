@@ -68,6 +68,8 @@ export default {
 
   .skills-block{
     width: 100vw;
+    max-width: 1200px;
+    margin: auto;
     background-color: #202426;
     height: auto;
     margin: auto;

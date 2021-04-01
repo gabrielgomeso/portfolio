@@ -95,11 +95,14 @@ export default {
 <style lang="scss">
 .card-section{
   display: grid;
+  align-items: center;
+  justify-content: center;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto auto auto auto;
 }
 
 .skills-title{
+  text-align: center;
   padding: 10px;
 }
 
