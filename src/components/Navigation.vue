@@ -1,6 +1,6 @@
 <template>
   <div class="navigation">
-    <a href="#about">Sobre mim</a>
+    <a href="#about">Sobre</a>
     <a href="#skills">Competências</a>
     <a href="#contact">Contato</a>
 
@@ -28,4 +28,10 @@
       padding: 10px;
     }
   }
+
+  @media (max-width: 800px){
+  .navigation{
+    justify-content: center;
+  }
+}
 </style>
