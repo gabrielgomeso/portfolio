@@ -65,7 +65,7 @@ export default {
     font-size: 1.5rem;
 
     .typed-text{
-      color: #F7DF38;
+      color: #2E5897;
       font-size: 1.4rem;
     }
     .cursor{
