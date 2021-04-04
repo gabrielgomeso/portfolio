@@ -1,5 +1,10 @@
 <template>
-  <div class="navigation"></div>
+  <div class="navigation">
+    <a href="#about">Sobre mim</a>
+    <a href="#skills">Competências</a>
+    <a href="#contact">Contato</a>
+
+  </div>
 </template>
 
 <style lang="scss">
@@ -11,5 +16,16 @@
     background-color: #2E5897;
 
     box-shadow: 5px 5px 10px 1px #333;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    grid-gap: 25px;
+
+    a{
+      text-decoration: none;
+      color: #eee;
+      padding: 10px;
+    }
   }
 </style>
