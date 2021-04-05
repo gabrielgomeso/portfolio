@@ -12,7 +12,7 @@ export default {
       return {
         typeValue: '',
         typeStatus: false,
-        typeArray: ['desenvolvedor Frontend', 'viajante no tempo e espaço', 'mestre de RPG', 'main Syndra no LoL'],
+        typeArray: ['desenvolvedor Frontend', 'viajante no tempo e espaço', 'mestre de RPG', 'main Syndra no LoL', 'o (nem tão) famoso Gabigol'],
         typingSpeed: 50,
         erasingSpeed: 50,
         newTextDelay: 2000,

@@ -71,8 +71,6 @@
         worktime="Jan/08 até hoje"
         picture_src=""
         description="Desde 2008 estudo inglês. Comecei estudando na escola de idiomas Fisk em 2008, parei em 2012. Retornei após um breve período em 2016/2017. Por todo esse período eu continuei estudando sozinho. Possuo prática profissional em transcrever conteúdo em inglês por meio do site GoTranscript"
-
-
       ></SkillCard>
       <SkillCard></SkillCard>
       <SkillCard></SkillCard>

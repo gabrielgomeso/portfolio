@@ -15,7 +15,7 @@
 
     background-color: #2E5897;
 
-    box-shadow: 5px 5px 10px 1px #333;
+    box-shadow: inset 0 1px 5px rgb(0, 0, 0);
 
     display: flex;
     align-items: center;
