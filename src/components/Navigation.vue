@@ -33,5 +33,15 @@
   .navigation{
     justify-content: center;
   }
+
+  @media (max-width: 320px){
+    .navigation{
+      grid-gap: 5px;
+    }
+
+    a{
+      padding: 5px;
+    }
+  }
 }
 </style>

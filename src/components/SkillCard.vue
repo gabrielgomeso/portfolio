@@ -133,5 +133,10 @@ export default {
     font-size: 14px;
     color: #999;
   }
+
+  .job-description{
+    text-align: justify;
+    text-justify: distribute;
+  }
 }
 </style>
