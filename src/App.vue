@@ -80,13 +80,16 @@ body {
     width: 100vw;
     max-width: 1200px;
     margin: auto;
-
     height: auto;
-    margin: auto;
+    padding-bottom: 50px;
   }
 
   .contact-block {
+    width: 100%;
     display: flex;
+    margin: auto;
+    height: auto;
+    background-color: #313131;
   }
 }
 </style>

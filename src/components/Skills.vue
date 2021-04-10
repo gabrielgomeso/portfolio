@@ -35,7 +35,7 @@
         description="Aprendi a usar e a pesquisar a respeito das tecnologias que envolvem React. Foram criadas diversas aplicações ao longo do Bootcamp."
       ></SkillCard>
       <SkillCard
-        title="Responsive Web Design Certification"
+        title="Responsive Web Design"
         workplace="FreeCodeCamp"
         worktime="Jun/20 até Ago/20"
         picture_src="https://i.imgur.com/mYiX5q4.png"
@@ -48,7 +48,7 @@
         description="Aprendi os fundamentos de desenvolvimento Web através de exercícios e instruções, sem aulas com professores, por meio de uma plataforma completamente autônoma."
       ></SkillCard>
       <SkillCard
-        title="Técnico em Informática para Web"
+        title="Tec. em Informática"
         workplace="Instituto Federal"
         worktime="Jan/14 até Jun/15"
         picture_src="https://i.imgur.com/EF1bkFV.png"
@@ -62,7 +62,7 @@
         description="Introdução ao mundo de desenvolvimento. Lógica de programação e algoritmos. Programação com PHP, MySQL e Javascript. Um pouco de hardware, segurança e Linux."
       ></SkillCard>
       <SkillCard
-        title="Complete Ruby on Rails Developer Course"
+        title="Ruby on Rails Course"
         workplace="Udemy"
         worktime="Dez/20 - atualmente"
         picture_src="https://i.imgur.com/K028Jv0.png"

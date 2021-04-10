@@ -91,6 +91,7 @@ export default {
   .card-title {
     padding: 20px;
     font-weight: 600;
+    
 
     .workplace {
       color: rgb(190, 190, 190);
