@@ -35,7 +35,7 @@ export default {
     Footer,
     Navigation,
     Button,
-    Contact
+    Contact,
   },
 };
 </script>
@@ -90,10 +90,11 @@ body {
   }
 
   .contact-block {
-    width: 100%;
-    display: flex;
+    width: 100vw;
+    max-width: 1200px;
     margin: auto;
     height: auto;
+    padding: 50px;
     background-color: #313131;
   }
 }
