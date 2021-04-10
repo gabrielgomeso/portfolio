@@ -29,21 +29,17 @@
 
 <style lang="scss">
 .contact-section {
-  display: grid;
+  width: 100%;
+  display: flex;
+  grid-gap: 50px;
   align-items: center;
   justify-content: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto auto;
 
   .contact {
     a {
       text-decoration: none;
       color: #eee;
-      padding: 10px;
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
       grid-gap: 20px;
 
       .icon {
@@ -53,11 +49,10 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .contact-section {
-    grid-template-columns: auto;
-    grid-template-rows: 1fr;
-    grid-gap: 50px;
+    display: flex;
+    flex-direction: column;
   }
 }
 </style>
