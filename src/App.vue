@@ -12,7 +12,9 @@
   <section class="section skills-block">
     <Skills></Skills>
   </section>
-  <section id="contact" class="section contact-block"></section>
+  <section id="contact" class="section contact-block">
+    <Contact></Contact>
+  </section>
   <Footer></Footer>
 </template>
 
@@ -21,6 +23,8 @@ import Navigation from "./components/Navigation.vue";
 import Greetings from "./components/Greetings.vue";
 import Button from "./components/Button.vue";
 import Skills from "./components/Skills.vue";
+import Contact from "./components/Contact.vue";
+
 import Footer from "./components/Footer.vue";
 
 export default {
@@ -31,6 +35,7 @@ export default {
     Footer,
     Navigation,
     Button,
+    Contact
   },
 };
 </script>
