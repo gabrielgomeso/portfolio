@@ -1,5 +1,5 @@
 <template>
-  <a class="button">{{ text }}</a>
+  <a class="btn"> {{ text }}</a>
 </template>
 
 <script>
@@ -11,15 +11,37 @@ export default {
 };
 </script>
 
-<style lang="scss">
-  .button{
-    padding: 20px;
-    margin: 10px;
-    border: 1px solid #eee;
+<style lang="css">
+  
+.btn{
+  margin-top: 10px;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  background: transparent;
+  border: 2px solid #F4796B;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+  z-index: 1;
+  position: relative;
+}
 
-    text-decoration: none;
-    color: #eee;
-    background-color: #D0672F;
-  }
+.btn::before{
+  content: '';
+  position: absolute;
+  background: #F4796B;
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .5s ease;
+}
+
+.btn:hover:before {
+  width: 100%;
+}
+
 
 </style>

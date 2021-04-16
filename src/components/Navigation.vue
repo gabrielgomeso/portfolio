@@ -1,6 +1,5 @@
 <template>
   <div class="navigation">
-    <a href="#about">Sobre</a>
     <a href="#skills">Competências</a>
     <a href="#contact">Contato</a>
 

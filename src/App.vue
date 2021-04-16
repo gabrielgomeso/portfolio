@@ -8,6 +8,7 @@
     />
     <Greetings></Greetings>
     <Button v-bind:href="'#skills'" text="Saiba mais sobre mim"></Button>
+
   </section>
   <section class="section skills-block">
     <Skills></Skills>
@@ -63,6 +64,7 @@ body {
 
   .greetings-block {
     width: 100%;
+    
     background-color: #222;
     display: flex;
     flex-direction: column;
