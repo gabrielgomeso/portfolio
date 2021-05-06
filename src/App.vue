@@ -3,7 +3,7 @@
   <section class="section greetings-block">
     <img
       class="myself"
-      src="https://scontent.fgru11-1.fna.fbcdn.net/v/t1.6435-9/81939773_3438253399580908_2617396097164771328_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=dKn3sfeJdP8AX82J6OQ&_nc_ht=scontent.fgru11-1.fna&oh=d9e9abf414074d68d17b199c7bde070c&oe=608E80B3"
+      src="./assets/myself.jpg"
       alt=""
     />
     <Greetings></Greetings>
