@@ -13,12 +13,6 @@
       </a>
     </div>
     <div class="contact">
-      <a href="https://twitter.com/gabigol84">
-        <fa class="icon" :icon="['fab', 'twitter']" />
-        <p>@gabigol84</p>
-      </a>
-    </div>
-    <div class="contact">
       <a href="https://www.instagram.com/gabigol84/">
         <fa class="icon" :icon="['fab', 'instagram']" />
         <p>@gabigol84</p>
