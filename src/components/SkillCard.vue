@@ -55,6 +55,7 @@ export default {
   width: 250px;
   height: 320px;
   margin: 15px;
+  cursor: pointer;
 }
 
 .card-content {
@@ -64,7 +65,7 @@ export default {
   transform-style: preserve-3d;
   transition: all 0.5s ease;
 
-  &:hover {
+  &:active {
     transform: rotateY(180deg);
   }
 }
