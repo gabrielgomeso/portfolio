@@ -106,11 +106,18 @@
 
 <script>
 import SkillCard from "./SkillCard.vue";
+import SkillBlock from "./SkillBlock.vue";
+import skillData from '../../skills.json';
+
 
 export default {
   name: "App",
+  data: {
+    skills: JSON.parse(skillData),
+  },
   components: {
     SkillCard,
+    SkillBlock,
   },
 };
 </script>
