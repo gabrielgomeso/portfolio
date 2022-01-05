@@ -17,7 +17,7 @@
               >Tecnologias usadas</span
             >
             <ul class="tech-list">
-              <li v-for="tech in techs">
+              <li v-for="tech in techs" :key="tech">
                 {{ tech }}
               </li>
             </ul>
