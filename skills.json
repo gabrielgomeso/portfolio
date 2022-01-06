@@ -14,6 +14,34 @@
       ]
     },
     {
+      "name": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+      "type": "course",
+      "location": "Instituto Federal de São Paulo",
+      "duration": "Jan/20 - Jan/23",
+      "description": "Introdução ao mundo de desenvolvimento. Lógica de programação e algoritmos. Programação com PHP, MySQL e Javascript. Um pouco de hardware, segurança e Linux.",
+      "techs": [
+        "HTML e CSS",
+        "Lógica de Programação",
+        "PHP",
+        "MySQL",
+        "Javascript e JQuery"
+      ]
+    },
+    {
+      "name": "Curso Técnico em Informática",
+      "type": "course",
+      "location": "Instituto Federal de São Paulo",
+      "duration": "Jan/14 - Jun/16",
+      "description": "Introdução ao mundo de desenvolvimento. Lógica de programação e algoritmos. Programação com PHP, MySQL e Javascript. Um pouco de hardware, segurança e Linux.",
+      "techs": [
+        "HTML e CSS",
+        "Lógica de Programação",
+        "PHP",
+        "MySQL",
+        "Javascript e JQuery"
+      ]
+    },
+    {
       "name": "Bootcamp GoStack",
       "type": "course",
       "location": "Rocketseat",
@@ -30,7 +58,7 @@
       ]
     },
     {
-      "name": "Responsive Web Design",
+      "name": "Curso de Desenvolvimento Web Responsivo",
       "type": "course",
       "location": "FreeCodeCamp",
       "duration": "Jun/20 - Ago/20",
@@ -40,20 +68,6 @@
         "CSS: Flexbox, Grid, Media Queries, Animations",
         "Javascript",
         "Responsividade"
-      ]
-    },
-    {
-      "name": "Curso Técnico em Informática",
-      "type": "course",
-      "location": "Instituto Federal de São Paulo",
-      "duration": "Jan/14 - Jun/16",
-      "description": "Introdução ao mundo de desenvolvimento. Lógica de programação e algoritmos. Programação com PHP, MySQL e Javascript. Um pouco de hardware, segurança e Linux.",
-      "techs": [
-        "HTML e CSS",
-        "Lógica de Programação",
-        "PHP",
-        "MySQL",
-        "Javascript e JQuery"
       ]
     },
     {
@@ -101,7 +115,8 @@
       "type": "others",
       "location": "Universidade Cruzeiro do Sul",
       "duration": "Jan/08 - atualmente",
-      "description": "Faculdade de Direito iniciada na total e completa aleatoriedade. Entretanto, todo conhecimento é válido. Meu TCC foi realizado em torno da Lei Geral de Proteção de Dados. Tenho interesse em Direitos Autorais, Direito e Internet, etc"
+      "description": "Faculdade de Direito iniciada na total e completa aleatoriedade. Entretanto, todo conhecimento é válido. Meu TCC foi realizado em torno da Lei Geral de Proteção de Dados. Tenho interesse em Direitos Autorais, Direito e Internet, etc",
+      "extra": "TCC com foco na LGPD"
     }
   ]
 }

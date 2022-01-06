@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    Feito com muito amor por Gabriel Gomes de Oliveira em 2021.
+    Feito por Gabriel Gomes de Oliveira em 2021.
   </div>
 </template>
 
