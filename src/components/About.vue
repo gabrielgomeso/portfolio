@@ -26,6 +26,9 @@
           Educação e ingressei no curso superior de Análise em Desenvolvimento
           de Sistemas.
         </p>
+        <p>
+          Meu objetivo principal é viajar pelo mundo e conhecer de tudo um pouco. Eu amo livros e hambúrguers.
+        </p>
       </span>
     </div>
   </section>
@@ -35,7 +38,7 @@
 .about-block {
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 20px;
   align-items: center;
   justify-content: center;
@@ -45,13 +48,16 @@
 
   width: 100vw;
   max-width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
+  padding: 20px;
 
   .about-image {
     width: 100%;
-    max-width: 400px;
+    max-width: 600px;
+    min-width: 300px;
     height: auto;
-    grid-column-start: 2;
+    grid-column: 2 / 3;
 
     border: 1px solid #202426;
     border-radius: 10px;
@@ -59,20 +65,34 @@
   }
 
   .about-text--block {
-    grid-column-start: 3;
+    grid-column: 3 / 5;
     text-align: justify;
     word-spacing: -2px;
   }
 }
 
-@media (max-width: 800px) {
-  .about-block {
-    display: flex;
-    flex-direction: row;
+@media (max-width: 1200px) {
+  .about-block{
+    .about-text--block {
+      grid-column: 2 / 5;
+      
+    }
+    
+    .about-image{
+      display: none;
+    }
   }
+}
 
-  .about-text{
-    font-size: 10px;
+@media (max-width: 400px) {
+  .about-block{
+    .about-text--block {
+      grid-column: 1 / 6;
+    }
+    
+    .about-image{
+      display: none;
+    }
   }
 }
 </style>

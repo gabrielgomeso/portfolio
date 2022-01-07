@@ -4,7 +4,7 @@
       <summary class="skill-title">
         <strong>{{ title }}</strong> - {{ local }}
       </summary>
-      <h4 class="skill-description--head">Descrição</h4>
+      <h4 class="skill-description--title">Descrição</h4>
       <p class="skill-description--text">
         {{ description }}
       </p>
@@ -49,6 +49,10 @@ export default {
     cursor: pointer;
   }
 
+  .skill-description--title {
+    padding-top: 15px;
+  }
+
   .skill-description--text {
     text-align: justify;
     word-spacing: -2px;
@@ -63,4 +67,5 @@ export default {
     list-style-type: none;
   }
 }
+
 </style>
