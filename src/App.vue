@@ -7,7 +7,7 @@
       alt=""
     />
     <Greetings></Greetings>
-    <Button v-bind:href="'#skills'" text="Saiba mais sobre mim"></Button>
+    <Button v-bind:href="'#about'" text="Saiba mais sobre mim"></Button>
 
   </section>
   <About id="about"></About>
