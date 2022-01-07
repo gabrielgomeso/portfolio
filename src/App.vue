@@ -10,12 +10,10 @@
     <Button v-bind:href="'#skills'" text="Saiba mais sobre mim"></Button>
 
   </section>
-  <section class="section skills-block">
-    <Skills></Skills>
-  </section>
-  <section id="contact" class="section contact-block">
-    <Contact></Contact>
-  </section>
+  <About id="about"></About>
+  <Skills id="skills"></Skills>
+  <Contact id="contact"></Contact>
+
   <Footer></Footer>
 </template>
 
@@ -23,6 +21,7 @@
 import Navigation from "./components/Navigation.vue";
 import Greetings from "./components/Greetings.vue";
 import Button from "./components/Button.vue";
+import About from "./components/About.vue";
 import Skills from "./components/Skills.vue";
 import Contact from "./components/Contact.vue";
 
@@ -36,7 +35,8 @@ export default {
     Footer,
     Navigation,
     Button,
-    Contact,
+    About,
+    Contact
   },
 };
 </script>
@@ -81,20 +81,6 @@ body {
       border: 5px solid #2e5897;
       box-shadow: 1px 1px 10px 5px rgb(0, 0, 0);
     }
-  }
-
-  .skills-block {
-    width: 100vw;
-    max-width: 1200px;
-    margin: auto;
-    height: auto;
-    padding-bottom: 50px;
-  }
-
-  .contact-block {
-    height: auto;
-    padding: 50px;
-    background-color: #313131;
   }
 }
 </style>

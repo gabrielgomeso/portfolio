@@ -1,0 +1,125 @@
+{
+  "skills": [
+    {
+      "name": "Estágio em Web Ops",
+      "type": "work",
+      "location": "Quero Educação",
+      "duration": "Jan/21 - Jan/22",
+      "description": "O estágio teve como principal foco o suporte aos produtos da Quero. Utilizava diariamente scripts em Ruby para resolver uma série de ocorrências e eventualmente desenvolvia alguns. Posteriormente, mudei de time para desenvolver diretamente algumas ferramentas menores ainda em Ruby, mas também em ReactJS. Aprendi a trabalhar em equipe, a me comunicar, a entender o funcionamento de uma empresa e como lidar com pessoas. Entendi como se pede ajuda, como fazer perguntas e como me organizar no ambiente de trabalho.",
+      "techs": [
+          "Ruby e Ruby on Rails", 
+          "ReactJS", 
+          "Fundamentos de VueJS", 
+          "Fundamentos de HTML/CSS", 
+          "Git e Github",
+          "Metodologias Ágeis",
+          "Plataforma JIRA"
+      ]
+    },
+    {
+      "name": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+      "type": "course",
+      "location": "Instituto Federal de São Paulo",
+      "duration": "Jan/20 - Jan/23",
+      "description": "Curso Superior focado em desenvolvimento de software.",
+      "techs": [
+        "Análise de Sistemas",
+        "Sistemas Operacionais",
+        "Lógica de Programação",
+        "Estrutura de Dados e Algoritmos",
+        "Banco de Dados",
+        "Desenvolvimento Web"
+      ]
+    },
+    {
+      "name": "Curso Técnico em Informática",
+      "type": "course",
+      "location": "Instituto Federal de São Paulo",
+      "duration": "Jan/14 - Jun/16",
+      "description": "Introdução ao mundo de desenvolvimento. Lógica de programação e algoritmos. Programação com PHP, MySQL e Javascript. Um pouco de hardware, segurança e Linux.",
+      "techs": [
+        "HTML e CSS",
+        "Lógica de Programação",
+        "PHP",
+        "MySQL",
+        "Javascript e JQuery"
+      ]
+    },
+    {
+      "name": "Bootcamp GoStack",
+      "type": "course",
+      "location": "Rocketseat",
+      "duration": "Set/20 - Dez/20",
+      "description": "Aprendi a usar e a pesquisar a respeito das tecnologias que envolvem React. Foram criadas diversas aplicações ao longo do Bootcamp.",
+      "techs": [
+        "ReactJS",
+        "React Native",
+        "NodeJS",
+        "TypeScript",
+        "Fundamentos de MVC",
+        "Fundamentos de SOLID",
+        "Git e Github"
+      ]
+    },
+    {
+      "name": "Curso de Desenvolvimento Web Responsivo",
+      "type": "course",
+      "location": "FreeCodeCamp",
+      "duration": "Jun/20 - Ago/20",
+      "description": "Aprendi os fundamentos de desenvolvimento Web através de exercícios e instruções, sem aulas com professores, por meio de uma plataforma completamente autônoma.",
+      "techs": [
+        "HTML semântico",
+        "CSS: Flexbox, Grid, Media Queries, Animations",
+        "Javascript",
+        "Responsividade"
+      ]
+    },
+    {
+      "name": "Curso de Ruby on Rails",
+      "type": "course",
+      "location": "Udemy",
+      "duration": "Dez/20 - atualmente",
+      "description": "Introdução ao Ruby e Rails. Conhecimentos básicos e intermediários sobre essa ferramneta.",
+      "techs": [
+        "Ruby",
+        "Ruby on Rails",
+        "Programação Orientada a Objetos com Rails",
+        "Autenticação",
+        "Autorização",
+        "Desenvolvimento de projetos"
+      ]
+    },
+    {
+      "name": "Curso de VueJS",
+      "type": "course",
+      "location": "Udemy",
+      "duration": "Mar/21 - Out/21",
+      "description": "Curso de VueJS 3 na plataforma Udemy",
+      "techs": [
+        "VueJS",
+        "Desenvolvimento de projetos"
+      ]
+    },
+    {
+      "name": "Inglês Intermediário",
+      "type": "others",
+      "location": "",
+      "duration": "Jan/08 - atualmente",
+      "description": "Desde 2008 estudo inglês. Comecei estudando na escola de idiomas Fisk em 2008, parei em 2012. Retornei após um breve período em 2016/2017. Por todo esse período eu continuei estudando sozinho. Possuo prática profissional em transcrever conteúdo em inglês por meio do site GoTranscript"
+    },
+    {
+      "name": "Estágios na área de Direito",
+      "type": "others",
+      "location": "MPF e Fórum da Comarca de Caraguatatuba",
+      "duration": "Jun/17 - Ago/19",
+      "description": "Estágio em dois lugares diferentes dentro do âmbito de Direito: Fórum de Caraguatatuba e Ministério Público Federal. Conhecimentos gerais acerca do universo jurídico. Atendimento ao público, noções de processos e execução fiscal. Contato com o contribuinte e cidadão."
+    },
+    {
+      "name": "Faculdade de Direito",
+      "type": "others",
+      "location": "Universidade Cruzeiro do Sul",
+      "duration": "Jan/08 - atualmente",
+      "description": "Faculdade de Direito iniciada na total e completa aleatoriedade. Entretanto, todo conhecimento é válido. Meu TCC foi realizado em torno da Lei Geral de Proteção de Dados. Tenho interesse em Direitos Autorais, Direito e Internet, etc"
+    }
+  ]
+}

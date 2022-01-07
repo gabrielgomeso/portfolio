@@ -1,5 +1,5 @@
 <template>
-  <div class="contact-section">
+  <section class="contact-section">
     <div class="contact">
       <a href="https://www.linkedin.com/in/gabrielgomeso/">
         <fa class="icon" :icon="['fab', 'linkedin']" />
@@ -18,7 +18,7 @@
         <p>@gabigol84</p>
       </a>
     </div>
-  </div>
+  </section>
 </template>
 
 <style lang="scss">
@@ -28,6 +28,10 @@
   grid-gap: 50px;
   align-items: center;
   justify-content: center;
+  padding: 50px;
+
+  background-color: #313131;
+  height: auto;
 
   .contact {
     a {
