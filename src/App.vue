@@ -10,9 +10,7 @@
     <Button v-bind:href="'#skills'" text="Saiba mais sobre mim"></Button>
 
   </section>
-  <section id="about" class="section about-block">
-    <About></About>
-  </section>
+  <About id="about"></About>
   <Skills id="skills"></Skills>
   <Contact id="contact"></Contact>
 
@@ -83,11 +81,6 @@ body {
       border: 5px solid #2e5897;
       box-shadow: 1px 1px 10px 5px rgb(0, 0, 0);
     }
-  }
-
-  .about-block {
-    background-color: #2e5897;
-    box-shadow: inset 0 1px 5px rgb(0, 0, 0);
   }
 }
 </style>
