@@ -7,7 +7,7 @@
       alt=""
     />
     <Greetings></Greetings>
-    <Button v-bind:href="'#about'" text="Saiba mais sobre mim"></Button>
+    <Button @click="buttonClicked" v-bind:href="'#about'" text="Saiba mais sobre mim"></Button>
 
   </section>
   <About id="about"></About>
@@ -37,6 +37,15 @@ export default {
     Button,
     About,
     Contact
+  },
+  methods: {
+    buttonClicked() {
+      this.$gtag.event('saiba-mais-click', {
+        'event_category': 'documentation',
+        'event_label': 'Botão Saiba Mais clicado',
+        'value': 1
+      });
+    },
   },
 };
 </script>
