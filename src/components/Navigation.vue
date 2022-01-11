@@ -1,8 +1,8 @@
 <template>
   <div class="navigation">
-    <a href="#about">Sobre</a>
-    <a href="#skills">Competências</a>
-    <a href="#contact">Contato</a>
+    <a href="#about">{{ $t("appText.about") }} </a>
+    <a href="#skills">{{ $t("appText.skill") }} </a>
+    <a href="#contact">{{ $t("appText.contact") }} </a>
   </div>
 </template>
 

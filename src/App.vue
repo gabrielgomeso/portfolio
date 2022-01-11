@@ -7,7 +7,14 @@
       alt=""
     />
     <Greetings></Greetings>
-    <Button @click="buttonClicked" v-bind:href="'#about'" text="Saiba mais sobre mim"></Button>
+    <Button @click="buttonClicked" v-bind:href="'#about'"> {{ $t("appText.knowMe") }} </Button>
+    <div class="locale-changer">
+      <select v-model="$i18n.locale">
+        <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang">
+          {{ lang }}
+        </option>
+      </select>
+    </div>
 
   </section>
   <About id="about"></About>
@@ -47,6 +54,10 @@ export default {
       });
     },
   },
+  name: 'locale-changer',
+  data () {
+    return { langs: ['ptBr', 'en'] }
+  }
 };
 </script>
 
