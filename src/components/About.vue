@@ -73,9 +73,6 @@
 
 @media (max-width: 1200px) {
   .about-block{
-    gap: 0px;
-    grid-template-columns: 1fr;
-    
     .about-text--block {
       
       grid-column: 2 / 5;
@@ -90,6 +87,9 @@
 
 @media (max-width: 400px) {
   .about-block{
+    gap: 0px;
+    grid-template-columns: 1fr;
+
     .about-text--block {
       grid-column: 1 / 6;
     }
