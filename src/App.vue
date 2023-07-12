@@ -3,8 +3,12 @@
   <section class="section greetings-block">
     <img
       class="myself"
+      width="175"
+      height="175"
       src="./assets/myself.jpg"
       alt=""
+      loading="eager"
+      fetchpriority="high"
     />
     <Greetings></Greetings>
     <Button @click="buttonClicked" v-bind:href="'#about'" text="Saiba mais sobre mim"></Button>
