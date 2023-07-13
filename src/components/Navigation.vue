@@ -11,6 +11,7 @@
     width: 100vw;
     max-width: 100%;
     height: 50px;
+    padding: 0 15px;
 
     background-color: #2E5897;
 
