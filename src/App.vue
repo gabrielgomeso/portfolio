@@ -14,9 +14,10 @@
     <Button @click="buttonClicked" v-bind:href="'#about'" text="Saiba mais sobre mim"></Button>
 
   </section>
-  <About id="about"></About>
-  <Skills id="skills"></Skills>
-  <Contact id="contact"></Contact>
+  <About id="about" />
+  <Skills id="skills" />
+  <Articles id="articles" />
+  <Contact id="contact" />
 
   <Footer></Footer>
 </template>
@@ -26,9 +27,9 @@ import Navigation from "./components/Navigation.vue";
 import Greetings from "./components/Greetings.vue";
 import Button from "./components/Button.vue";
 import About from "./components/About.vue";
+import Articles from "./components/Articles.vue";
 import Skills from "./components/Skills.vue";
 import Contact from "./components/Contact.vue";
-
 import Footer from "./components/Footer.vue";
 
 export default {
@@ -40,7 +41,8 @@ export default {
     Navigation,
     Button,
     About,
-    Contact
+    Contact,
+    Articles
   },
   methods: {
     buttonClicked() {
