@@ -12,7 +12,7 @@ export default {
       return {
         typeValue: '',
         typeStatus: false,
-        typeArray: ['estudante de desenvolvimento', 'viajante no tempo e espaço', 'Sage duelista no Valorant', 'amante de Karaokê'],
+        typeArray: ['desenvolvedor frontend', 'viajante no tempo e espaço', 'Sage duelista no Valorant', 'amante de Karaokê'],
         typingSpeed: 50,
         erasingSpeed: 50,
         newTextDelay: 2000,
