@@ -1,6 +1,22 @@
 {
   "skills": [
     {
+      "name": "Desenvolvedor Frontend",
+      "type": "work",
+      "location": "Quero Educação",
+      "duration": "Jan/22 - atual",
+      "description": "Oportunidade de especialização em Frontend com atuação majoritaria em VueJS 2 e 3, Nuxt e Typescript. Realização de pesquisas e aplicação de conhecimentos em SEO. Contato direto com o backend Ruby e PHP, WordPress e Directus como CMS, MySQL e Postgres para o banco de dados. Foram desenvolvidos sistemas de checkout, migrações de versão de Vue 2 para Vue 3, marketplaces.",
+      "techs": [
+          "VueJS 2 e 3", 
+          "NuxtJS 3",
+          "PHP/Laravel", 
+          "SEO",
+          "Git e Github",
+          "Metodologias Ágeis",
+          "Plataforma JIRA"
+      ]
+    },
+    {
       "name": "Estágio em Web Ops",
       "type": "work",
       "location": "Quero Educação",
