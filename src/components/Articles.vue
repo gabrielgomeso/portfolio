@@ -5,8 +5,10 @@
       <article v-for="article in articles.slice(0, articlesShown)" class="article">
         <h1>{{ article.title }}</h1>
       </article>
-      <button v-if="articlesShown <= articles.length" @click="showMoreArticles()">Mostrar mais</button>
-      <button v-else @click="showLessArticles()">Mostrar menos</button>
+      <div class="articles-button">
+        <Button v-if="articlesShown <= articles.length" @click="showMoreArticles()" :text="'Mostrar mais'" />
+        <Button v-else @click="showLessArticles()" :text="'Mostrar menos'" />
+      </div>
     </div>
     <div v-else-if="loading">
       Loading...
@@ -16,8 +18,13 @@
 </template>
 
 <script>
+import Button from './Button.vue';
+
 export default {
   name: "Articles",
+  components: {
+    Button,
+  },
   data() {
     return {
       articles: [],
@@ -80,6 +87,13 @@ export default {
   background-color: #313131;
   box-shadow: 1px 1px 15px 2px black;
   padding: 15px;
+  margin: 15px;
+}
+
+.articles-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 15px;
 }
 </style>
