@@ -5,7 +5,7 @@
       class="myself"
       width="175"
       height="175"
-      src="./assets/myself.jpg"
+      src="./assets/images/myself.jpg"
       alt=""
       loading="eager"
       fetchpriority="high"
@@ -65,11 +65,17 @@ export default {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('@/assets/fonts/RobotoMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
   color: #eee;
   background: #202426;
-  font-family: "Roboto Mono";
+  font-family: 'Roboto Mono', sans-serif;
 
   .section {
     width: 100vw;
