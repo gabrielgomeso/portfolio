@@ -2,7 +2,7 @@
   <section class="about-block">
     <img
       class="about-image"
-      src="../assets/biggerme.jpg"
+      src="../assets/images/biggerme.jpg"
       alt="Uma foto minha, sorrindo, com um hamburguer"
     />
     <div class="about-text--block">
