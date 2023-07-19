@@ -6,6 +6,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import App from './App.vue';
 import store from './store';
 import VueGtag  from 'vue-gtag';
+import i18n from './i18n';
 
 library.add(fas, fab);
 
@@ -17,5 +18,7 @@ app.use(store);
 app.use(VueGtag, {
   config: { id: "G-DTBPB2X24E" }
 });
+
+app.use(i18n);
 
 app.mount('#app');
