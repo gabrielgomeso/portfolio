@@ -1,8 +1,11 @@
 <template>
   <div class="navigation">
-    <a href="#about">Sobre</a>
-    <a href="#skills">Competências</a>
-    <a href="#contact">Contato</a>
+    <a href="#about">{{$t('About')}}</a>
+    <a href="#skills">{{$t('Skills')}}</a>
+    <a href="#contact">{{$t('Contact')}}</a>
+    <div>
+      {{$t('language')}}: <span @click="$i18n.locale = $i18n.availableLocales[0]">Português</span>  | <span @click="$i18n.locale = $i18n.availableLocales[1]">English</span>
+    </div>
   </div>
 </template>
 
@@ -26,6 +29,10 @@
       text-decoration: none;
       color: #eee;
       padding: 10px;
+    }
+
+    span {
+      cursor: pointer;
     }
   }
 

@@ -1,13 +1,13 @@
 <template>
   <section class="articles">
-    <h2 class="articles-title">Artigos publicados</h2>
+    <h2 class="articles-title">{{ $t('published-articles-title') }}</h2>
     <div v-if="!loading">
       <article v-for="article in articles.slice(0, articlesShown)" class="article">
         <h1>{{ article.title }}</h1>
       </article>
       <div class="articles-button">
-        <Button v-if="articlesShown <= articles.length" @click="showMoreArticles()" :text="'Mostrar mais'" />
-        <Button v-else @click="showLessArticles()" :text="'Mostrar menos'" />
+        <Button v-if="articlesShown <= articles.length" @click="showMoreArticles()" :text="$t('show-more')" />
+        <Button v-else @click="showLessArticles()" :text="$t('show-less')" />
       </div>
     </div>
     <div v-else-if="loading">

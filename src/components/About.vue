@@ -9,25 +9,7 @@
       <h4 class="about-title">Sobre mim</h4>
       <span class="about-text">
         <p>
-          Meu nome é Gabriel Gomes de Oliveira, sou nascido e criado em
-          Caraguatatuba, uma cidadezinha no Litoral Norte de São Paulo, no
-          imenso Brasil. Comecei a me interessar por programação quando tinha 12
-          anos e joguei pela primeira vez em fóruns de RPG, aprendendo um pouco
-          a mexer com HTML e CSS.
-        </p>
-        <p>
-          Anos depois, ingressei no curso técnico de informática para internet e
-          aprendi o básico da área. Infelizmente, acreditava que não era bom o
-          suficiente para ser programador e me desviei do caminho, indo fazer a
-          faculdade de direito. Aprendi muita coisa nessa área, mas sabia que
-          não era para mim. Até que, durante o isolamento social em 2020, voltei
-          a estudar programação e retornei para esse rumo. Fiz diversos cursos
-          online e em 2021 iniciei o estágio em desenvolvimento na Quero
-          Educação e ingressei no curso superior de Análise em Desenvolvimento
-          de Sistemas.
-        </p>
-        <p>
-          Meu objetivo principal é viajar pelo mundo e conhecer de tudo um pouco. Eu amo livros e hambúrguers.
+          {{$t('about-me-text')}}
         </p>
       </span>
     </div>

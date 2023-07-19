@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    Feito por Gabriel Gomes de Oliveira em 2021.
+    {{ $t('made-by') }}
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <section id="skills" class="skills-block">
-    <h2 class="skills-title">Experiências de trabalho</h2>
+    <h2 class="skills-title">{{$t('work-experiences-title')}}</h2>
       <SkillBlock
         v-for="skill in parsedSkills['work']"
         :key="skill.name"
@@ -11,7 +11,7 @@
         :extra="skill.extra"
       >
       </SkillBlock>
-    <h2 class="skills-title">Cursos e treinamentos</h2>
+    <h2 class="skills-title">{{$t('courses-title')}}</h2>
       <SkillBlock
         v-for="skill in parsedSkills['course']"
         :key="skill.name"
@@ -22,7 +22,7 @@
         :extra="skill.extra"
       >
       </SkillBlock>
-    <h2 class="skills-title">Outras habilidades</h2>
+    <h2 class="skills-title">{{$t('other-skills-title')}}</h2>
       <SkillBlock
         v-for="skill in parsedSkills['others']"
         :key="skill.name"
