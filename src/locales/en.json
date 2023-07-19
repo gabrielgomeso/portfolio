@@ -1,0 +1,15 @@
+{
+  "Home" : "Home",
+  "About": "About me",
+  "Skills": "Skills",
+  "Contact": "Contact",
+  "language": "Language",
+  "about-me-text": "My name is Gabriel Gomes de Oliveira. I was born and raised in Caraguatatuba, a small town on the North Coast of São Paulo, in vast Brazil. I started getting interested in programming when I was 12 years old and played in RPG forums for the first time, learning a bit of HTML and CSS. Years later, I enrolled in a technical course in internet informatics and learned the basics of the field. Unfortunately, I believed I wasn't good enough to become a programmer and veered off course, going to law school. I learned a lot in that area, but I knew it wasn't for me. Then, during the social isolation in 2020, I started studying programming again and returned to this path. I took various online courses, and in 2021, I began an internship in development at Quero Educação and joined the higher education course in Systems Analysis and Development. My main goal is to travel the world and learn a little about everything. I love books and hamburgers.",
+  "work-experiences-title": "Work experience",
+  "courses-title": "Courses and trainings",
+  "other-skills-title": "Other skills",
+  "published-articles-title": "Published articles",
+  "show-more": "Show more",
+  "show-less":  "Show less",
+  "made-by": "Made by Gabriel Gomes de Oliveira  / 2021 - 2023 / All rights reserved"
+}
