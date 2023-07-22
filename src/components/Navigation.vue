@@ -44,7 +44,7 @@ export default {
     grid-gap: 25px;
 
     a {
-      font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+      font-size: clamp(1rem, 2.5vw, 1.5rem);
       text-decoration: none;
       color: #eee;
       padding: 0 20px;
