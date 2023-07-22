@@ -78,7 +78,6 @@ export default {
 
 <style lang="scss">
 .skills-block {
-    width: 100vw;
     max-width: 1200px;
     margin: 25px auto auto auto;
     padding-bottom: 50px;
