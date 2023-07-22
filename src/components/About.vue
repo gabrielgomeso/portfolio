@@ -6,7 +6,7 @@
       alt="Uma foto minha, sorrindo, com um hamburguer"
     />
     <div class="about-text--block">
-      <h4 class="about-title">Sobre mim</h4>
+      <h4 class="about-title">{{$t('About')}}</h4>
       <span class="about-text">
         <p>
           {{$t('about-me-text')}}

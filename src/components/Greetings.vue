@@ -12,7 +12,6 @@ export default {
       return {
         typeValue: '',
         typeStatus: false,
-        typeArray: ['desenvolvedor frontend', 'viajante no tempo e espaço', 'Sage duelista no Valorant', 'amante de Karaokê'],
         typingSpeed: 50,
         erasingSpeed: 50,
         newTextDelay: 2000,
@@ -54,6 +53,11 @@ export default {
           setTimeout(this.typeText, this.typingSpeed + 1000);
         }
       }
+    },
+    computed: {
+      typeArray() {
+        return [ this.$t('greetings.job'), this.$t('greetings.traveler'), this.$t('greetings.game'), this.$t('greetings.hobby') ]
+      },
     },
     created() {
       setTimeout(this.typeText, this.newTextDelay + 200)

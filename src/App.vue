@@ -11,7 +11,7 @@
       fetchpriority="high"
     />
     <Greetings></Greetings>
-    <Button @click="buttonClicked" v-bind:href="'#about'" text="Saiba mais sobre mim"></Button>
+    <Button @click="buttonClicked" v-bind:href="'#about'" :text="$t('know-more')"></Button>
 
   </section>
   <About id="about" />
