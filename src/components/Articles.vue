@@ -2,14 +2,20 @@
   <section class="articles">
     <h2 class="articles-title">{{ $t('published-articles-title') }}</h2>
     <div v-if="!loading">
-      <article v-for="article in articles.slice(0, articlesShown)" class="article">
-        <h1>{{ article.title }}</h1>
-      </article>
-      <div class="articles-button">
-        <Button v-if="articlesShown <= articles.length" @click="showMoreArticles()" :text="$t('show-more')" />
-        <Button v-else @click="showLessArticles()" :text="$t('show-less')" />
-      </div>
+      <div class="articles-container">
+        <article v-for="article in articles.slice(0, articlesShown)" class="article">
+          <h1>{{ article.title }}</h1>
+          <p>{{ new Date(article.published_at).toISOString().split('T')[0] }}</p>
+          <p>{{ article.description }}</p>
+          <a :href="article.canonical_url" target="_blank">Ler mais</a>
+          <span v-for="tag in article.tag_list">{{ tag }}</span>
+        </article>
     </div>
+    <div class="articles-button">
+      <Button v-if="articlesShown <= articles.length" @click="showMoreArticles()" :text="$t('show-more')" />
+      <Button v-else @click="showLessArticles()" :text="$t('show-less')" />
+    </div>
+  </div>
     <div v-else-if="loading">
       Loading...
     </div>
@@ -47,7 +53,8 @@ export default {
         
         const articles = await response.json();
         this.articles = articles;
-        
+        console.log(this.articles);
+  
         this.loading = false;
       } catch (error) {
         this.errorMessage = error.message;
@@ -74,6 +81,15 @@ export default {
   margin: 25px auto auto auto;
   padding-bottom: 50px;
   height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.articles-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .articles-title {
@@ -87,6 +103,8 @@ export default {
   box-shadow: 1px 1px 15px 2px black;
   padding: 15px;
   margin: 15px;
+  width: 300px;
+  min-height: 280px;
 }
 
 .articles-button {
