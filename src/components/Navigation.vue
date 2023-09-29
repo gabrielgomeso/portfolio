@@ -7,7 +7,9 @@
       <li>
         <a href="#skills">{{ $t("Skills") }}</a>
       </li>
-      <!-- <li><a href="#skills">{{$t('Articles')}}</a></li> -->
+      <li>
+        <a href="#skills">{{ $t("Articles") }}</a>
+      </li>
       <li>
         <a href="#contact">{{ $t("Contact") }}</a>
       </li>
@@ -99,6 +101,13 @@ export default {
   .navigation {
     flex-direction: column;
     justify-content: center;
+  }
+
+  .navigation-links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
   }
 
   @media (max-width: 320px) {
