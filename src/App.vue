@@ -6,13 +6,12 @@
       width="175"
       height="175"
       src="./assets/images/myself.jpg"
-      alt=""
+      alt="Gabriel Gomes smiling"
       loading="eager"
       fetchpriority="high"
     />
     <Greetings></Greetings>
     <Button @click="buttonClicked" v-bind:href="'#about'" :text="$t('know-more')"></Button>
-
   </section>
   <About id="about" />
   <Skills id="skills" />
@@ -42,14 +41,14 @@ export default {
     Button,
     About,
     Contact,
-    Articles
+    Articles,
   },
   methods: {
     buttonClicked() {
-      this.$gtag.event('saiba-mais-click', {
-        'event_category': 'documentation',
-        'event_label': 'Botão Saiba Mais clicado',
-        'value': 1
+      this.$gtag.event("saiba-mais-click", {
+        event_category: "documentation",
+        event_label: "Botão Saiba Mais clicado",
+        value: 1,
       });
     },
   },
@@ -66,8 +65,8 @@ export default {
 }
 
 @font-face {
-  font-family: 'Roboto Mono';
-  src: url('@/assets/fonts/RobotoMono-Regular.ttf') format('truetype');
+  font-family: "Roboto Mono";
+  src: url("@/assets/fonts/RobotoMono-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -75,7 +74,7 @@ export default {
 body {
   color: #eee;
   background: #202426;
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: "Roboto Mono", sans-serif;
 
   .section {
     width: 100vw;
@@ -85,7 +84,7 @@ body {
 
   .greetings-block {
     width: 100%;
-    
+
     background-color: #222;
     display: flex;
     flex-direction: column;
