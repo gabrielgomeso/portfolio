@@ -55,7 +55,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style>
 * {
   margin: 0;
   padding: 0;
@@ -75,32 +75,30 @@ body {
   color: #eee;
   background: #202426;
   font-family: "Roboto Mono", sans-serif;
+}
 
-  .section {
-    width: 100vw;
-    max-width: 100%;
-    height: 100vh;
-  }
+.section {
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+}
 
-  .greetings-block {
-    width: 100%;
+.greetings-block {
+  width: 100%;
+  background-color: #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: inset 0 0px 1px rgb(0, 0, 0);
+}
 
-    background-color: #222;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    box-shadow: inset 0 0px 1px rgb(0, 0, 0);
-
-    .myself {
-      max-width: 175px;
-      max-height: 175px;
-      border-radius: 100%;
-      border: 5px solid #2e5897;
-      box-shadow: 1px 1px 10px 5px rgb(0, 0, 0);
-    }
-  }
+.greetings-block .myself {
+  max-width: 175px;
+  max-height: 175px;
+  border-radius: 100%;
+  border: 5px solid #2e5897;
+  box-shadow: 1px 1px 10px 5px rgb(0, 0, 0);
 }
 </style>

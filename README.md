@@ -1,28 +1,7 @@
-# gabrielgo.dev
+# Vue 3 + Vite
 
-<img src="https://i.imgur.com/ttiLgAc.png"></img>
+This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-## Sobre
-Apesar do nome do repositório ser "portfolio", o site é mais uma espécie de currículo do que qualquer outra coisa, apesar de eventualmente eu ter interesse de centralizar alguns projetos nele. De qualquer forma, criei esse site tanto para que eu tenha um lugar para juntar minhas informações e experiências de trabalho, quanto para aprender um pouco de Vue 3. Fiz algumas mudanças ao longo do tempo e o que mais me "orgulho" foi ter juntado as experiências todas em um JSON que é consumido por um componente e separado por categorias (antes, era tudo escrito e gerado "na mão", meu mesmo separava dentro de um arquivo-componente imenso).
+## Recommended IDE Setup
 
-## Setup do Projeto
-
-Após forkar/clonar o projeto no local, fazer a instalação:
-```
-yarn install
-```
-
-Servidor de desenvolvimento: 
-```
-yarn serve
-```
-
-Compilação para produção:
-```
-yarn build
-```
-
-Lint e fixes:
-```
-yarn lint
-```
+- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
